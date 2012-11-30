@@ -1,0 +1,8 @@
+<div class="overflow-hidden">
+	<span class="float-left text-align-left task-left">
+		<img src="/assets/icons/sort.png" class="sortIcon" /><input type="checkbox" class="checkbox" /><span class="body"><%= @body %></span>
+	</span>
+	<span class="float-right" id="navigation">
+		<a href="#" id="deleteTask"><img src="/assets/icons/trash.png" alt="delete" /></a></a>
+	</span>
+</div>

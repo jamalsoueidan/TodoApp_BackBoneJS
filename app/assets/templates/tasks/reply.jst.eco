@@ -1,0 +1,10 @@
+<span class="replyBody">
+	<% if @status == 0: %>
+	<input type="checkbox" class="replyCheckbox" /> 
+	<% end %>
+	<%= @body %>
+</span>
+
+<nav>
+	<a href="#" id="deleteReply"><img src="/assets/icons/trash.png" alt="Delete" /></a>
+</nav>

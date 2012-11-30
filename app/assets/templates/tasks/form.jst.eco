@@ -1,0 +1,7 @@
+<form>
+	<textarea id="body" title="Please type your note, todo or waiting tasks"></textarea><br />
+	
+	<input type="submit" value="Note" id="note" />
+	<input type="submit" value="Todo" id="todo" />
+	<input type="submit" value="Waiting" id="waiting" />
+</form>

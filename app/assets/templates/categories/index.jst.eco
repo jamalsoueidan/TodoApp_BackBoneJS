@@ -1,0 +1,9 @@
+<h2>Categories</h2>
+
+<ul class="categories"></ul>
+
+<nav>
+	<ul class="nav"> 
+		<li>Create new category</li>
+	</ul>
+</nav>

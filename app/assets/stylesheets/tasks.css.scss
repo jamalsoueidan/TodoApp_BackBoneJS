@@ -1,0 +1,90 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.done {
+	text-decoration:line-through;
+	color:#C1C1C1;
+	
+	span {
+		text-decoration:line-through;
+		color:#C1C1C1;
+	}
+}
+
+.sortIcon {
+	padding:0px 8px 0px 5px;
+	cursor:move;
+}
+
+.status0 {
+	background-color:#FFF;
+}
+
+.status2 { 
+	background-color:#FFFFCC;
+}
+
+.status3 {
+	background-color:#FFF;
+}
+
+section#tasks {
+	position:absolute;
+	left:201px;
+	right:50%;
+	bottom:0px;
+	top:51px;
+	background-color:#FFF;
+	-moz-box-shadow: 6px 0px 5px 1px #C1C1C1;
+	-webkit-box-shadow: 6px 0px 5px 1px #C1C1C1;
+	box-shadow: 6px 0px 5px 1px #C1C1C1;
+	
+
+	div.addTask {
+		height:35px;
+		border-bottom:1px solid #ebebeb;
+		
+		input {
+			width:96%;
+			height:96%;
+			font-size:100%;
+			margin:0;
+			padding-left:5px;
+			padding-right:5px;
+			border:0px solid;
+		}
+		
+		input:hover {
+		    border: 0px solid #FFF;
+		}
+	}
+}
+
+ul#tasks {
+	overflow:scroll;
+	position:absolute;
+	top:35px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	
+	li {
+		cursor: pointer; 
+		cursor: hand;
+		
+		padding:5px;
+		height:35px;
+		line-height:35px;
+		border-bottom:1px solid #ebebeb;
+		padding-right:10px;
+		
+		.task-left {
+			width:90%;
+		}
+	}
+	
+	li.selected {
+		background-color:#00BFFF;
+	}
+}

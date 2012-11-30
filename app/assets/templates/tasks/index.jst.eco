@@ -1,0 +1,6 @@
+<div class="addTask">
+	<input type="text" id="body" title="Whats need to be done?" />
+	<!--<input type="submit" value="Tilføj" id="task" style="width:20%;" />-->
+</div>
+
+<ul id="tasks"></ul>

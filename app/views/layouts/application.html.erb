@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+  	<title>Todo</title>
+  	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= content_tag 'div', '', :id => "container", :data => {categories: Category.order('name ASC').to_json(:include => :tasks)}%>
+
+<header>
+	<h1><a href="/">TodoTask</a> ... todo application integrate with your email, sms and more.</h1>
+	<nav>
+		<ul>
+			<li><%= link_to "Create new category", "#"%></li>
+		</ul>
+	</nav>
+</header>
+
+<section id="replies">
+	<div id="header"></div>
+	<ul id="replies"></ul>
+	<div id="form"></div>
+</section>
+<aside></aside>
+<section id="tasks"></section>
+
+</body>
+</html>
