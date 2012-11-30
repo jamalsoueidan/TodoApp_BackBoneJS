@@ -3,3 +3,9 @@ View the application live at:
 http://todotask.heroku.com
 
 I used Rails as a backend-framework and BackboneJS for frontend-framework.
+
+The backbone files resists in:
+
+/app/assets/javascripts
+
+I used CoffeScript to write JavaScript
